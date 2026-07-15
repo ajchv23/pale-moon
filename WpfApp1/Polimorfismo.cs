@@ -60,7 +60,7 @@ namespace WpfApp1
             FacturaElectronica facturaElectronica = new();
             facturaElectronica.Clave = "50661621616";
             TiqueteElectronica tiqueteElectronica = new();
-            tiqueteElectronica.Clave = "5061818781";
+            tiqueteElectronica.Clave = "506181878222";
 
             Enviador.EnviarCorreo(facturaElectronica);
             Enviador.EnviarCorreo(tiqueteElectronica);
